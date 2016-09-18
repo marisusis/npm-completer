@@ -15,5 +15,12 @@
     "bugs": {
         "url": "https://github.com/spacegeek224/npm-completer/issues"
     },
-    "homepage": "https://github.com/spacegeek224/npm-completer#readme"
+    "homepage": "https://github.com/spacegeek224/npm-completer#readme",
+    "providedServices": {
+        "autocomplete.provider": {
+            "versions": {
+                "2.0.0": "provide"
+            }
+        }
+    }
 }
