@@ -1,0 +1,19 @@
+{
+    "name": "npm-completer",
+    "version": "0.0.0",
+    "description": "An autocomplete-plus provider for npm packages",
+    "main": "./lib/main",
+    "engines": {
+        "atom": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spacegeek224/npm-completer.git"
+    },
+    "author": "Maris Usis",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/spacegeek224/npm-completer/issues"
+    },
+    "homepage": "https://github.com/spacegeek224/npm-completer#readme"
+}
