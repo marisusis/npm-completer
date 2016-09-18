@@ -1,4 +1,6 @@
-provider = require './provider'
+provider = require ‘./provider’
 
 module.exports =
-    getProvider: -> provider
+  activate: -> provider.load()
+
+  getProvider: -> provider
