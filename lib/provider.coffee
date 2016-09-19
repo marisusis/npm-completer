@@ -9,13 +9,14 @@ provider =
   load: () ->
       @completions = @scanPackages()
 
-  inclusionPriority: 1
+  inclusionPriority: 100
   excludeLowerPriority: true
 
   # Required: Return a promise, an array of suggestions, or null.
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix, activatedManually}) ->
     new Promise (resolve) ->
-      resolve([text: 'something'])
+      console.log(prefix);
+      resolve([text: ‘itsNotATrap’])
 
   # (optional): called _after_ the suggestion `replacementPrefix` is replaced
   # by the suggestion `text` in the buffer
