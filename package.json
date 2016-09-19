@@ -1,6 +1,6 @@
 {
   "name": "npm-completer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "An autocomplete-plus provider for npm packages",
   "main": "./lib/main",
   "engines": {
