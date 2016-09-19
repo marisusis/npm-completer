@@ -1,4 +1,4 @@
-provider = require ‘./provider’
+provider = require './provider'
 
 module.exports =
   activate: -> provider.load()

@@ -16,7 +16,7 @@ provider =
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix, activatedManually}) ->
     new Promise (resolve) ->
       console.log(prefix);
-      resolve([text: ‘itsNotATrap’])
+      resolve([text: 'itsNotATrap'])
 
   # (optional): called _after_ the suggestion `replacementPrefix` is replaced
   # by the suggestion `text` in the buffer
