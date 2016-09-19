@@ -1,4 +1,4 @@
-provider =
+module.exports =
   # This will work on JavaScript and CoffeeScript files, but not in js comments.
   selector: '.source.js, .source.coffee'
   disableForSelector: '.source.js .comment'
